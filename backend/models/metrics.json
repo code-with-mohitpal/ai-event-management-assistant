@@ -1,0 +1,62 @@
+{
+  "accuracy": 1.0,
+  "report": {
+    "Positive": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 41.0
+    },
+    "Neutral": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 41.0
+    },
+    "Negative": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 42.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 124.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 124.0
+    }
+  },
+  "confusion": [
+    [
+      41,
+      0,
+      0
+    ],
+    [
+      0,
+      41,
+      0
+    ],
+    [
+      0,
+      0,
+      42
+    ]
+  ],
+  "labels": [
+    "Positive",
+    "Neutral",
+    "Negative"
+  ],
+  "train_size": 496,
+  "test_size": 124,
+  "dataset": "synthetic template-generated sentences",
+  "version": "tfidf-lr-1.0"
+}

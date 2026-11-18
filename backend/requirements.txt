@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pyjwt
+bcrypt
+qrcode[pil]
+pydantic[email]
+scikit-learn
+joblib
+pytest
+httpx
